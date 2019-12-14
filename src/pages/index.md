@@ -1,16 +1,15 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
+image: /img/ShapingSur2020banner.png
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Kaldi
+  title: ¿Qué es un shaping?
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Son eventos autónomos realizados por las diferentes regiones donde participan shapers de los diferentes hubs.
+    A diferencia de los eventos oficiales, los shapings abordan problemáticas e inquietudes regionales,basadas en los intereses recabados con los miembros de la región.
+    50 Shapers de Argentina, Uruguay, Paraguay y otros países de Latinoamérica desembarcarán en Asunción en junio del 2020.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
