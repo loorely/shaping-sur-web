@@ -5,7 +5,9 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
-import logo from '../img/triangulo.png'
+import logo from '../img/shapingSurLogoBlanco.png'
+import triangulos from '../img/Triangulos-1.png'
+import summer from '../img/paraguay_summer2019.jpg'
 
 export const IndexPageTemplate = ({
   image,
@@ -23,7 +25,7 @@ export const IndexPageTemplate = ({
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
             })`,
-          backgroundPosition: `top left`,
+          backgroundPosition: `center left`,
           backgroundAttachment: `fixed`,
         }}
       >
@@ -36,16 +38,16 @@ export const IndexPageTemplate = ({
             flexDirection: 'column',
           }}
         >
-          <div className="iconRadio content has-text-centered">
+          <div className="content has-text-centered">
             <img
               src={logo}
               alt="Shaping Sur"
               style={{
-                height: '68%',
-                paddingTop: '20px' }}
-          />
+                height: '20rem',
+              }}
+            />
           </div>
-          <h1
+          {/* <h1
             className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
             style={{
               backgroundColor: '#35589a',
@@ -66,7 +68,7 @@ export const IndexPageTemplate = ({
             }}
           >
             Asunción
-          </h3>
+          </h3> */}
         </div>
       </div>
       <section className="section section--gradient">
@@ -75,20 +77,50 @@ export const IndexPageTemplate = ({
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
-                  <div className="content">
-                    <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
-                    </div>
-                    <div className="tile">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
-                    </div>
-                  </div>
                   <div className="columns">
-                    <div className="column is-12">
+                    <div className="column is-8">
+                      <div className="tile">
+                        <h1 className="title">{mainpitch.title}</h1>
+                      </div>
+                      <p className="has-text-weight-semibold">{mainpitch.description}</p>
+                    </div>
+                    <div className="column is-4">
+                      <div className="content has-text-centered">
+                        <img
+                          src={triangulos}
+                          alt="Qué es Shaping Sur"
+                          style={{
+                            height: '20rem',
+                          }}
+                        />
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div
+                    className="full-width-image-container"
+                    style={{
+                      backgroundImage: `url(${summer})`,
+                      backgroundPosition: `center left`,
+                      backgroundAttachment: `fixed`,
+                    }}
+                  />
+
+                  
+
+                  <div className="columns">
+                    <div className="column is-8">
                       <h3 className="has-text-weight-semibold is-size-2">
                         {heading}
                       </h3>
-                      <p>{description}</p>
+                      <p className="has-text-weight-semibold">{description}</p>
+                    </div>
+                    <div className="column is-4">
+                      <h3 className="has-text-weight-semibold is-size-2">
+                        {heading}
+                      </h3>
+                      <p className="has-text-weight-semibold">{description}</p>
                     </div>
                   </div>
                   <Features gridItems={intro.blurbs} />
