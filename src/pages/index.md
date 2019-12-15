@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Great coffee with a conscience
 image: /img/ShapingSur2020banner.jpg
-heading: Great coffee with a conscience
+heading: ¿Por qué es importante un Shaping?
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: ¿Qué es un shaping?
@@ -11,10 +11,7 @@ mainpitch:
     A diferencia de los eventos oficiales, los shapings abordan problemáticas e inquietudes regionales,basadas en los intereses recabados con los miembros de la región.
     50 Shapers de Argentina, Uruguay, Paraguay y otros países de Latinoamérica desembarcarán en Asunción en junio del 2020.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Presentar Paraguay a jóvenes involucrados en procesos de cambio a nivel regional, generar conversaciones y eventos de impacto para unos 300 jóvenes paraguayos, descubrir el Corazón de América desde su cultura, calidez y costumbres, construir desde las voces de los tiempos un plan regional de innovación y construcción del liderazgo del presente, para el futuro.
 intro:
   blurbs:
     - image: /img/coffee.png
