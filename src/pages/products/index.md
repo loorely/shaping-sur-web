@@ -1,7 +1,7 @@
 ---
 templateKey: 'product-page'
 path: /products
-title: Our Coffee
+title: Inscribite
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
 description: >-
@@ -73,9 +73,11 @@ full_image: /img/products-full-width.jpg
 pricing:
   heading: Monthly subscriptions
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    Conocé a la 'Madre de Ciudades' de una manera que nunca imaginaste.
+
+    Una oportunidad para encontrarte con culturas ancestrales, historia y gastronomía, donde compartirás con referentes políticos, empresariales y sociales que están transformando la sociedad. Vamos a compartir con más de 400 personas la opinión de los Shapers de distintas ciudades del Cono Sur, y la naturaleza formará parte de lo que serán días de inspiración, conexión y propuestas concretas para la Región.
+
+    Nos vamos a encontrar con charlas para el público abierto, networking, clases de wakeboard y paseos en barco por una de las bahías de donde partieron las misiones que fundaron varios puertos y ciudades icónicas del continente.
   plans:
     - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
       items:
