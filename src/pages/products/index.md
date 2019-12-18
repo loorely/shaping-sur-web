@@ -2,7 +2,7 @@
 templateKey: 'product-page'
 path: /products
 title: Inscribite
-image: /img/jumbotron.jpg
+image: /img/adventure.jpg
 heading: Great coffee with a conscience
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -71,33 +71,32 @@ testimonials:
       stance on empowering farmers and transparency.
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: Monthly subscriptions
+  heading: Adquirí tu entrada
   description: >-
-    Conocé a la 'Madre de Ciudades' de una manera que nunca imaginaste.
+    Conocé a la Madre de Ciudades de una manera que nunca imaginaste.
 
     Una oportunidad para encontrarte con culturas ancestrales, historia y gastronomía, donde compartirás con referentes políticos, empresariales y sociales que están transformando la sociedad. Vamos a compartir con más de 400 personas la opinión de los Shapers de distintas ciudades del Cono Sur, y la naturaleza formará parte de lo que serán días de inspiración, conexión y propuestas concretas para la Región.
 
     Nos vamos a encontrar con charlas para el público abierto, networking, clases de wakeboard y paseos en barco por una de las bahías de donde partieron las misiones que fundaron varios puertos y ciudades icónicas del continente.
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Hasta el 25 de Enero 2020
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
+        - Acceso al Evento.
+        - 3 Noches de Alojamiento. 19, 20 y 21 de Junio 2020.
+        - Todas las Comidas.
+        - Movilidad interna durante el evento.
+        - Actividades Recreativas.
+        - Kit del Participante  
+      plan: Early Birds
+      price: '100'
+    - description: Desde el 26 de Enero del 2020
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+        - Acceso al Evento.
+        - 3 Noches de Alojamiento. 19, 20 y 21 de Junio 2020.
+        - Todas las Comidas.
+        - Movilidad interna durante el evento.
+        - Actividades Recreativas.
+        - Kit del Participante  
+      plan: Full Price
+      price: '140'
 ---
