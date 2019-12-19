@@ -52,6 +52,8 @@ export const IndexPageTemplate = ({
       </div>
       <section className="section section--gradient">
         <div className="container">
+          <div className="section">
+            <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
                   <div className="columns">
@@ -59,7 +61,7 @@ export const IndexPageTemplate = ({
                       <div className="tile">
                         <h1 className="title">{mainpitch.title}</h1>
                       </div>
-                      <p className="is-size-5">{mainpitch.description}</p>
+                      <p className="has-text-weight-semibold">{mainpitch.description}</p>
                     </div>
                     <div className="column is-4">
                       <div className="content has-text-centered">
@@ -89,7 +91,7 @@ export const IndexPageTemplate = ({
                       <h3 className="has-text-weight-semibold is-size-2">
                         {heading}
                       </h3>
-                      <p className="is-size-5">{description}</p>
+                      <p className="has-text-weight-semibold">{description}</p>
                     </div>
 
                   </div>
@@ -97,7 +99,9 @@ export const IndexPageTemplate = ({
 
                 </div>
               </div>
+            </div>
           </div>
+        </div>
       </section>
     </div>
   )
