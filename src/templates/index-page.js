@@ -55,49 +55,45 @@ export const IndexPageTemplate = ({
           <div className="section">
             <div className="columns">
               <div className="column is-10 is-offset-1">
-                <div className="content">
-                  <div className="columns">
-                    <div className="column is-8">
-                      <div className="tile">
-                        <h1 className="title">{mainpitch.title}</h1>
-                      </div>
-                      <p className="has-text-weight-semibold">{mainpitch.description}</p>
+                <div className="columns content">
+                  <div className="column is-10">
+                    <div className="tile">
+                      <h1 className="title">{mainpitch.title}</h1>
                     </div>
-                    <div className="column is-4">
-                      <div className="content has-text-centered">
-                        <img
-                          src={triangulos}
-                          alt="Qué es Shaping Sur"
-                          style={{
-                            height: '20rem',
-                          }}
-                        />
-                      </div>
-                    </div>
-
+                    <p className="is-size-5">{mainpitch.description}</p>
                   </div>
-
-                  <div
-                    className="full-width-image-container"
-                    style={{
-                      backgroundImage: `url(${summer})`,
-                      backgroundPosition: `center left`,
-                      backgroundAttachment: `fixed`,
-                    }}
-                  />
-
-                  <div className="columns">
-                    <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
-                      </h3>
-                      <p className="has-text-weight-semibold">{description}</p>
+                  {/* <div className="column is-4">
+                    <div className="content has-text-centered">
+                      <img
+                        src={triangulos}
+                        alt="Qué es Shaping Sur"
+                        style={{
+                          height: '20rem',
+                        }}
+                      />
                     </div>
-
-                  </div>
-
+                  </div> */}
 
                 </div>
+
+                <div
+                  className="full-width-image-container"
+                  style={{
+                    backgroundImage: `url(${summer})`,
+                    backgroundPosition: `center left`,
+                    backgroundAttachment: `fixed`,
+                  }}
+                />
+
+                <div className="column is-10">
+                  <h1 className="title">
+                    {heading}
+                  </h1>
+                  <p className="is-size-5">{description}</p>
+                </div>
+
+
+
               </div>
             </div>
           </div>
