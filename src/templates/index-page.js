@@ -51,18 +51,28 @@ export const IndexPageTemplate = ({
         </div>
       </div>
       <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
-                <div className="columns content">
-                  <div className="column is-10">
-                    <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
-                    </div>
-                    <p className="is-size-5">{mainpitch.description}</p>
-                  </div>
-                  {/* <div className="column is-4">
+        {/* <div style={{
+          display: 'flex',
+          alignItems: `center right`,
+          alignContent: `center right`,
+          backgroundImage: `url('/img/Triangulos-1.png')`,
+          backgroundRepeat: 'no-repeat',
+          minHeight:'50vh'
+
+        }}>
+
+        </div> */}
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+            <div className="columns content">
+              <div className="column is-10"
+                style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
+                <div className="tile" style={{ flexGrow: 'unset' }}>
+                  <h1 className="title">{mainpitch.title}</h1>
+                </div>
+                <p className="is-size-5">{mainpitch.description}</p>
+              </div>
+              {/* <div className="column is-4">
                     <div className="content has-text-centered">
                       <img
                         src={triangulos}
@@ -73,29 +83,36 @@ export const IndexPageTemplate = ({
                       />
                     </div>
                   </div> */}
+              <div style={{
+                // display: 'flex',
+                // alignItems: `center right`,
+                // alignContent: `center right`,
+                backgroundImage: `url('/img/Triangulos-1.png')`,
+                backgroundRepeat: 'no-repeat',
+                minHeight: '50vh'
 
-                </div>
+              }} />
 
-                <div
-                  className="full-width-image-container"
-                  style={{
-                    backgroundImage: `url(${summer})`,
-                    backgroundPosition: `center left`,
-                    backgroundAttachment: `fixed`,
-                  }}
-                />
-
-                <div className="column is-10">
-                  <h1 className="title">
-                    {heading}
-                  </h1>
-                  <p className="is-size-5">{description}</p>
-                </div>
-
-
-
-              </div>
             </div>
+
+            <div
+              className="full-width-image-container"
+              style={{
+                backgroundImage: `url(${summer})`,
+                backgroundPosition: `center left`,
+                backgroundAttachment: `fixed`,
+              }}
+            />
+
+            <div className="column is-10">
+              <h1 className="title">
+                {heading}
+              </h1>
+              <p className="is-size-5">{description}</p>
+            </div>
+
+
+
           </div>
         </div>
       </section>
