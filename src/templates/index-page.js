@@ -42,80 +42,54 @@ export const IndexPageTemplate = ({
             <img
               src={logo}
               alt="Shaping Sur"
-              style={{
-                height: '20rem',
-              }}
+              className="logo-header"
             />
           </div>
 
         </div>
       </div>
-      <section className="section section--gradient">
-        {/* <div style={{
-          display: 'flex',
-          alignItems: `center right`,
-          alignContent: `center right`,
-          backgroundImage: `url('/img/Triangulos-1.png')`,
-          backgroundRepeat: 'no-repeat',
-          minHeight:'50vh'
-
-        }}>
-
-        </div> */}
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="columns content">
-              <div className="column is-10"
-                style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
-                <div className="tile" style={{ flexGrow: 'unset' }}>
-                  <h1 className="title">{mainpitch.title}</h1>
-                </div>
-                <p className="is-size-5">{mainpitch.description}</p>
+      <section className="section section--gradient triangulo">
+        <div className="column is-10 is-offset-1">
+          <div className="columns content">
+            <div className="column is-10"
+              style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
+              <div className="tile" style={{ flexGrow: 'unset' }}>
+                <h1 className="title">{mainpitch.title}</h1>
               </div>
-              {/* <div className="column is-4">
-                    <div className="content has-text-centered">
-                      <img
-                        src={triangulos}
-                        alt="Qué es Shaping Sur"
-                        style={{
-                          height: '20rem',
-                        }}
-                      />
-                    </div>
-                  </div> */}
-              <div style={{
-                // display: 'flex',
-                // alignItems: `center right`,
-                // alignContent: `center right`,
-                backgroundImage: `url('/img/Triangulos-1.png')`,
-                backgroundRepeat: 'no-repeat',
-                minHeight: '50vh'
-
-              }} />
-
+              <p className="is-size-5">{mainpitch.description}</p>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div
-              className="full-width-image-container"
-              style={{
-                backgroundImage: `url(${summer})`,
-                backgroundPosition: `center left`,
-                backgroundAttachment: `fixed`,
-              }}
-            />
+      <div
+        className="full-width-image-container"
+        style={{
+          backgroundImage: `url(${summer})`,
+          backgroundPosition: `center left`,
+          backgroundAttachment: `fixed`,
+        }}
+      />
 
+      <section className="section section--gradient">
+        <div className="column is-10 is-offset-1">
+          <div className="columns content">
             <div className="column is-10">
               <h1 className="title">
                 {heading}
               </h1>
               <p className="is-size-5">{description}</p>
             </div>
-
-
-
           </div>
         </div>
       </section>
+      <div style={{ display: 'flex', flex: 1, justifyContent: 'center', paddingLeft: '2rem', paddingRight: '2rem' }}>
+        <button class="button is-large is-link" 
+          style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
+          Inscribite
+        </button>
+      </div>
+
     </div>
   )
 
@@ -161,38 +135,38 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-      frontmatter {
-        title
+        markdownRemark(frontmatter: {templateKey: {eq: "index-page" } }) {
+        frontmatter {
+      title
         image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        heading
-        subheading
-        mainpitch {
-          title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
+        childImageSharp {
+      fluid(maxWidth: 2048, quality: 100) {
+        ...GatsbyImageSharpFluid
+      }
       }
     }
+    heading
+    subheading
+        mainpitch {
+        title
+          description
+      }
+      description
+        intro {
+        blurbs {
+      image {
+        childImageSharp {
+      fluid(maxWidth: 240, quality: 64) {
+        ...GatsbyImageSharpFluid
+      }
+      }
+    }
+    text
   }
+  heading
+  description
+}
+}
+}
+}
 `
