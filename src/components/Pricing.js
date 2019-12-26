@@ -20,6 +20,17 @@ const Pricing = ({ data }) => (
               </li>
             ))}
           </ul>
+          <div style={{ display: 'flex', flex: 1, justifyContent: 'center', paddingTop: '2rem', paddingLeft: '2rem', paddingRight: '2rem' }}>
+            {price.disable ?
+              (<button class="button is-large is-link" disabled
+                style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
+                Comprar
+          </button>) :
+              (<button class="button is-large is-link" 
+                style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
+                Comprar
+              </button>)}
+          </div>
         </section>
       </div>
     ))}

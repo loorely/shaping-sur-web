@@ -87,6 +87,7 @@ pricing:
         - Movilidad interna durante el evento.
         - Actividades Recreativas.
         - Kit del Participante  
+      disable: false
       plan: Early Birds
       price: '100'
     - description: Desde el 26 de Enero del 2020
@@ -97,6 +98,7 @@ pricing:
         - Movilidad interna durante el evento.
         - Actividades Recreativas.
         - Kit del Participante  
+      disable: true
       plan: Full Price
       price: '140'
 ---
