@@ -88,6 +88,7 @@ pricing:
         - Actividades Recreativas.
         - Kit del Participante  
       disable: false
+      link: https://venta.pagopar.com/4jl
       plan: Early Birds
       price: '100'
     - description: Desde el 26 de Enero del 2020
@@ -99,6 +100,7 @@ pricing:
         - Actividades Recreativas.
         - Kit del Participante  
       disable: true
+      link: 
       plan: Full Price
       price: '140'
 ---

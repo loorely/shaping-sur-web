@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
 
 const Pricing = ({ data }) => (
   <div className="columns">
@@ -22,14 +23,14 @@ const Pricing = ({ data }) => (
           </ul>
           <div style={{ display: 'flex', flex: 1, justifyContent: 'center', paddingTop: '2rem', paddingLeft: '2rem', paddingRight: '2rem' }}>
             {price.disable ?
-              (<button class="button is-large is-link" disabled
+              (<a className="button is-large is-link" disabled href={price.link}
                 style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
                 Comprar
-          </button>) :
-              (<button class="button is-large is-link" 
+          </a>) :
+              (<a className="button is-large is-link" href={price.link}
                 style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
                 Comprar
-              </button>)}
+              </a>)}
           </div>
         </section>
       </div>
