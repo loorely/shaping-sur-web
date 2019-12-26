@@ -84,10 +84,9 @@ export const IndexPageTemplate = ({
         </div>
       </section>
       <div style={{ display: 'flex', flex: 1, justifyContent: 'center', paddingLeft: '2rem', paddingRight: '2rem' }}>
-        <button class="button is-large is-link" 
-          style={{ paddingLeft: '2rem', paddingRight: '2rem' }}>
-          Inscribite
-        </button>
+        <Link className="button is-large is-link" to="/products">
+        Inscribite →
+        </Link>
       </div>
 
     </div>
