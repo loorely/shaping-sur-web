@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: ' Shaping Sur 2020',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Evento de experiencias basadas en las inquietudes y anhelos de referentes de cambio a nivel regional, donde las actividades centradas en los procesos dinámicos de construcción regional nos servirán para generar insumos para la adaptación a la 4ta Revolución Industrial en los países involucrados.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
