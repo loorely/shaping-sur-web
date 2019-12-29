@@ -5,7 +5,8 @@ import logo from '../img/shapingSurLogo.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
+import email from '../img/social/email.svg'
+import telefono from '../img/social/telefono-auricular-con-cable.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -85,6 +86,20 @@ const Footer = class extends React.Component {
                   <img
                     src={instagram}
                     alt="Instagram"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="telefono" href="tel:+595981538115">
+                  <img
+                    src={telefono}
+                    alt="Teléfono"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="mail" href="mailto:globalshaperspy@gmail.com">
+                  <img
+                    src={email}
+                    alt="email"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>

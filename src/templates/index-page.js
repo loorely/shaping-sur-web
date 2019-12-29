@@ -44,7 +44,18 @@ export const IndexPageTemplate = ({
               alt="Shaping Sur"
               className="logo-header"
             />
+            <h3
+              className="has-text-weight-bold is-size-1"
+              style={{
+                backgroundColor: '#35589a',
+                color: 'white',
+                padding: '0.5rem',
+              }}
+            >
+              {title}
+            </h3>
           </div>
+
 
         </div>
       </div>
@@ -85,7 +96,7 @@ export const IndexPageTemplate = ({
       </section>
       <div style={{ display: 'flex', flex: 1, justifyContent: 'center', paddingLeft: '2rem', paddingRight: '2rem' }}>
         <Link className="button is-large is-link" to="/products">
-        Inscribite →
+          Inscribite →
         </Link>
       </div>
 

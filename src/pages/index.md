@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: 19,20 y 21 de Junio 2020
 image: /img/ShapingSur2020banner.jpg
 heading: ¿Por qué es importante un Shaping?
 subheading: Support sustainable farming while enjoying a cup
