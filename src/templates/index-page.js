@@ -8,6 +8,10 @@ import BlogRoll from '../components/BlogRoll'
 import logo from '../img/shapingSurLogoBlanco.png'
 import triangulos from '../img/Triangulos-1.png'
 import summer from '../img/paraguay_summer2019.jpg'
+import asuncion from '../img/asuncion.png'
+import buenosAires from '../img/buenos-aires.png'
+import rosario from '../img/rosario.png'
+import montevideo from '../img/montevideo.jpg'
 
 export const IndexPageTemplate = ({
   image,
@@ -100,6 +104,35 @@ export const IndexPageTemplate = ({
         </Link>
       </div>
 
+      <section className="section section--gradient">
+        <div className="column is-10 is-offset-1">
+          <h1 className="title">
+            Organizan
+        </h1>
+        </div>
+        <div className="content has-text-centered">
+          <img
+            src={asuncion}
+            alt="Asuncion"
+            style={{ height: '9em' }}
+          />
+          <img
+            src={buenosAires}
+            alt="Buenos Aires"
+            style={{ height: '15em' }}
+          />
+          <img
+            src={rosario}
+            alt="Rosario"
+            style={{ height: '12em' }}
+          />
+          <img
+            src={montevideo}
+            alt="Montevideo"
+            style={{ height: '10em' }}
+          />
+        </div>
+      </section>
     </div>
   )
 
