@@ -123,28 +123,28 @@ export const IndexPageTemplate = ({
             <img
               src={asuncion}
               alt="Asuncion"
-              style={{ height: '10em' }}
+              
             />
           </div>
           <div className="column has-text-centered">
             <img
               src={buenosAires}
               alt="Buenos Aires"
-              style={{ height: '10em' }}
+              
             />
           </div>
           <div className="column has-text-centered">
             <img
               src={rosario}
               alt="Rosario"
-              style={{ height: '10em' }}
+              
             />
           </div>
           <div className="column has-text-centered">
             <img
               src={montevideo}
               alt="Montevideo"
-              style={{ height: '10em' }}
+              
             />
           </div>
 
@@ -152,7 +152,7 @@ export const IndexPageTemplate = ({
             <img
               src={cordoba}
               alt="Cordoba"
-              style={{ height: '10em' }}
+              
             />
           </div>
         </div>
@@ -161,35 +161,35 @@ export const IndexPageTemplate = ({
             <img
               src={corrientes}
               alt="Corrientes"
-              style={{ height: '10em' }}
+              
             />
           </div>
           <div className="column has-text-centered">
             <img
               src={mdq}
               alt="Mar del Plata"
-              style={{ height: '10em' }}
+              
             />
           </div>
           <div className="column has-text-centered">
             <img
               src={mendoza}
               alt="Mendoza"
-              style={{ height: '10em' }}
+              
             />
           </div>
           <div className="column has-text-centered">
             <img
               src={santiago}
               alt="Santiago"
-              style={{ height: '10em' }}
+              
             />
           </div>
           <div className="column has-text-centered">
             <img
               src={tucuman}
               alt="tucuman"
-              style={{ height: '10em' }}
+              
             />
           </div>
 
