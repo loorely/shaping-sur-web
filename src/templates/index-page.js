@@ -118,8 +118,8 @@ export const IndexPageTemplate = ({
             Organizan
         </h1>
         </div>
-        <div className="columns is-10 is-offset-1 content">
-          <div className="column has-text-centered content">
+        <div className="columns is-mobile is-centered">
+          <div className="column has-text-centered">
             <img
               src={asuncion}
               alt="Asuncion"
@@ -156,7 +156,7 @@ export const IndexPageTemplate = ({
             />
           </div>
         </div>
-        <div className="columns is-10 is-offset-1">
+        <div className="columns is-mobile is-centered">
           <div className="column has-text-centered">
             <img
               src={corrientes}
@@ -175,21 +175,21 @@ export const IndexPageTemplate = ({
             <img
               src={mendoza}
               alt="Mendoza"
-              style={{ height: '9em' }}
+              style={{ height: '10em' }}
             />
           </div>
           <div className="column has-text-centered">
             <img
               src={santiago}
               alt="Santiago"
-              style={{ height: '9em' }}
+              style={{ height: '10em' }}
             />
           </div>
           <div className="column has-text-centered">
             <img
               src={tucuman}
               alt="tucuman"
-              style={{ height: '9em' }}
+              style={{ height: '10em' }}
             />
           </div>
 
