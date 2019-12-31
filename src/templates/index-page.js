@@ -56,7 +56,7 @@ export const IndexPageTemplate = ({
               alt="Shaping Sur"
               className="logo-header"
             />
-            <h3
+            {/* <h3
               className="has-text-weight-bold is-size-1"
               style={{
                 backgroundColor: '#35589a',
@@ -65,7 +65,7 @@ export const IndexPageTemplate = ({
               }}
             >
               {title}
-            </h3>
+            </h3> */}
           </div>
 
 
@@ -118,8 +118,8 @@ export const IndexPageTemplate = ({
             Organizan
         </h1>
         </div>
-        <div className="columns is-5 is-offset-1">
-          <div className="column has-text-centered">
+        <div className="columns is-10 is-offset-1 content">
+          <div className="column has-text-centered content">
             <img
               src={asuncion}
               alt="Asuncion"
@@ -156,7 +156,7 @@ export const IndexPageTemplate = ({
             />
           </div>
         </div>
-        <div className="columns is-5 is-offset-1">
+        <div className="columns is-10 is-offset-1">
           <div className="column has-text-centered">
             <img
               src={corrientes}
