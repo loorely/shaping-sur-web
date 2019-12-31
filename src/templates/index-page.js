@@ -10,7 +10,7 @@ import triangulos from '../img/Triangulos-1.png'
 import summer from '../img/costanera.jpg'
 import asuncion from '../img/ASU.png'
 import buenosAires from '../img/BAIRES.png'
-import rosario from '../img/ROSARIO.png'
+import rosario from '../img/rosario.png'
 import montevideo from '../img/MVD.png'
 import cordoba from '../img/CORDOBA.png'
 
