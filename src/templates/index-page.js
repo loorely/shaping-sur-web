@@ -8,6 +8,18 @@ import BlogRoll from '../components/BlogRoll'
 import logo from '../img/shapingSurLogoBlanco.png'
 import triangulos from '../img/Triangulos-1.png'
 import summer from '../img/paraguay_summer2019.jpg'
+import asuncion from '../img/ASU.png'
+import buenosAires from '../img/BAIRES.png'
+import rosario from '../img/ROSARIO.png'
+import montevideo from '../img/MVD.png'
+import cordoba from '../img/CORDOBA.png'
+
+
+import tucuman from '../img/TUCUMAN.png'
+import santiago from '../img/SANTIAGO.png'
+import mendoza from '../img/MENDOZA.png'
+import mdq from '../img/MDQ.png'
+import corrientes from '../img/CORRIENTES.png'
 
 export const IndexPageTemplate = ({
   image,
@@ -100,6 +112,67 @@ export const IndexPageTemplate = ({
         </Link>
       </div>
 
+      <section className="section section--gradient">
+        <div className="column is-5 is-offset-1">
+          <h1 className="title">
+            Organizan
+        </h1>
+        </div>
+        <div className="column is-5 has-text-centered">
+          <img
+            src={asuncion}
+            alt="Asuncion"
+            style={{ height: '9em' }}
+          />
+          <img
+            src={buenosAires}
+            alt="Buenos Aires"
+            style={{ height: '9em' }}
+          />
+          <img
+            src={rosario}
+            alt="Rosario"
+            style={{ height: '9em' }}
+          />
+          <img
+            src={montevideo}
+            alt="Montevideo"
+            style={{ height: '9em' }}
+          />
+          <img
+            src={cordoba}
+            alt="Cordoba"
+            style={{ height: '9em' }}
+          />
+        </div>
+        <div className="column is-5 has-text-centered">
+          <img
+            src={corrientes}
+            alt="Corrientes"
+            style={{ height: '9em' }}
+          />
+          <img
+            src={mdq}
+            alt="Mar del Plata"
+            style={{ height: '9em' }}
+          />
+          <img
+            src={mendoza}
+            alt="Mendoza"
+            style={{ height: '9em' }}
+          />
+          <img
+            src={santiago}
+            alt="Santiago"
+            style={{ height: '9em' }}
+          />
+          <img
+            src={tucuman}
+            alt="tucuman"
+            style={{ height: '9em' }}
+          />
+        </div>
+      </section>
     </div>
   )
 
