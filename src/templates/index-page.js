@@ -32,13 +32,11 @@ export const IndexPageTemplate = ({
 }) => (
     <div>
       <div
-        className="full-width-image margin-top-0"
+        className="header-image full-width-image margin-top-0"
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-            })`,
-          backgroundPosition: `center left`,
-          
+            })`
         }}
       >
         <div
@@ -86,11 +84,9 @@ export const IndexPageTemplate = ({
       </section>
 
       <div
-        className="full-width-image-container"
+        className="full-width-image-container header-image"
         style={{
           backgroundImage: `url(${summer})`,
-          backgroundPosition: `center left`,
-          backgroundAttachment: `fixed`,
         }}
       />
 
