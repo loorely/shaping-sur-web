@@ -11,7 +11,8 @@ mainpitch:
     A diferencia de los eventos oficiales, los shapings abordan problemáticas e inquietudes regionales,basadas en los intereses recabados con los miembros de la región.
     Alrededor de 50 Shapers de Argentina, Uruguay, Paraguay, Chile y otros países de Latinoamérica desembarcarán en Asunción en junio del 2020.
 description: >-
-  Presentar Paraguay a jóvenes involucrados en procesos de cambio a nivel regional, generar conversaciones y eventos de impacto para unos 300 jóvenes paraguayos, descubrir el Corazón de América desde su cultura, calidez y costumbres, construir desde las voces de los tiempos un plan regional de innovación y construcción del liderazgo del presente, para el futuro.
+  Es un espacio de conexión y búsqueda de oportunidades para tener un impacto a escala regional al unir fuerzas con otros participantes y de posicionar a la región ante la comunidad global. Cada año, líderes de distintas ciudades se unen en una ciudad para mostrar el trabajo de sus Hubs y fortalecer las relaciones entre las comunidades. Los eventos están diseñados y dirigidos por Shapers para alentar la colaboración, compartir experiencias, explorar soluciones comunitarias y conocer las ciudades anfitrionas desde su cultura, costumbres y tradiciones hasta su manera de operar en diferentes sectores.
+  
 intro:
   blurbs:
     - image: /img/coffee.png
