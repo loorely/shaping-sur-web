@@ -79,7 +79,7 @@ pricing:
 
     Nos vamos a encontrar con charlas para el público abierto, networking, clases de wakeboard y paseos en barco por una de las bahías de donde partieron las misiones que fundaron varios puertos y ciudades icónicas del continente.
   plans:
-    - description: Hasta el 10 de Febrero 2020
+    - description: Hasta el 24 de Febrero 2020
       items:
         - Acceso al Evento.
         - 3 Noches de Alojamiento. 19, 20 y 21 de Junio 2020.
@@ -91,7 +91,8 @@ pricing:
       link: https://venta.pagopar.com/4jl
       plan: Early Birds
       price: '100'
-    - description: Desde el 11 de Febrero del 2020
+   
+    - description: Desde el 25 de Febrero del 2020
       items:
         - Acceso al Evento.
         - 3 Noches de Alojamiento. 19, 20 y 21 de Junio 2020.

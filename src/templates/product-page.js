@@ -49,8 +49,16 @@ export const ProductPageTemplate = ({
 
 
               </div>
-
+            
             </div>
+            <h5 className="has-text-weight-semibold is-size-2 has-text-centered">
+                 Opción de Pago via Paypal
+            </h5>
+                <p className="is-size-5 has-text-centered">Puede realizar una transferencia a nuestra de cuenta de Paypal habilitada utilizando los siguientes datos: </p>
+                <p className="is-size-7 has-text-centered">
+                Nombre: Gabriela Gaona <br></br>
+                Correo: gabriela@codium.com.py
+                </p>
           </div>
         </div>
       </section>
