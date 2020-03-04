@@ -87,7 +87,7 @@ pricing:
         - Movilidad interna durante el evento.
         - Actividades Recreativas.
         - Kit del Participante  
-      disable: false
+      disable: true
       link: https://venta.pagopar.com/4jl
       plan: Early Birds
       price: '100'
@@ -100,8 +100,8 @@ pricing:
         - Movilidad interna durante el evento.
         - Actividades Recreativas.
         - Kit del Participante  
-      disable: true
-      link: 
+      disable: false
+      link: https://venta.pagopar.com/4vn
       plan: Full Price
       price: '140'
 ---
